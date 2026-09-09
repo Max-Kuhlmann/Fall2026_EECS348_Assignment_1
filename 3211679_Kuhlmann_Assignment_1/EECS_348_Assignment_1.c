@@ -42,7 +42,7 @@ int main() {
             i--;
             // Makes for loop reset (Gemini)
             continue;
-        // Closes if statement
+        // Closes if statement (Gemini)
         }
 
         // Checks to make sure guess is within the bounds set (Gemini)
@@ -53,7 +53,7 @@ int main() {
             i--;
             // Makes for loop reset (Gemini)
             continue;
-        // Closes if statement
+        // Closes if statement (Gemini)
         }
 
         // Checks if the guess is equal to the secret (Gemini)
@@ -70,7 +70,7 @@ int main() {
             if (i < max_tries) {
                 // Tells user their guess was too low (Gemini)
                 printf("Too low! Try again.\n");
-            // Closes if statement
+            // Closes if statement (Gemini)
             }
         // Closes else if statement and checks if the guess is greater than the secret (Gemini)
         } else {
@@ -78,21 +78,21 @@ int main() {
             if (i < max_tries) {
                 // Tells user their guess was too high (Gemini)
                 printf("Too high! Try again.\n");
-            // Closes if statement
+            // Closes if statement (Gemini)
             }
-        // Closes else statement
+        // Closes else statement (Gemini)
         }
-    // Closes for loop
+    // Closes for loop (Gemini)
     }
 
-    // Checks if the user has ran out of guesses without being correct
+    // Checks if the user has ran out of guesses without being correct (Gemini)
     if (!has_won) {
-        // Tells user they've used all of their attempts, and what the secret number was
+        // Tells user they've used all of their attempts, and what the secret number was (Gemini)
         printf("Game over! You've used all %d attempts. The secret number was %d.\n", max_tries, secret);
-    // Closes if statement
+    // Closes if statement (Gemini)
     }
 
-    // Return value
+    // Return value (Gemini)
     return 0;
-// Closes main
+// Closes main (Gemini)
 }
